@@ -1,0 +1,199 @@
+body {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+/*   Navbar ------------------------------   */
+
+.navbar {
+    color: rgb(255, 255, 255);
+}
+.navbar_imagen {
+
+    width: 6rem;
+    height: 3rem;
+}
+
+.compra {
+    color: #5ad027 !important; 
+}
+
+.sr-only {
+ color: white !important;
+}
+
+
+
+/*   Fondo Imagen ------------------------------   */
+
+.titulo_carousel {
+
+    position: absolute;
+    color: rgb(255, 255, 255);
+    z-index: 10;
+    right: 10%;
+    padding-left: calc(40%);
+    top: 10em;
+    padding-bottom: 10%;
+    text-align: right;
+}
+
+.botonTranspar {
+    width: 30%;
+    background-color: transparent;
+    color: rgb(252, 252, 252);
+    border-color: rgb(255, 255, 255);
+    height: 3em;
+    border-radius: 4px;
+}
+
+.botonTickets{
+    width: 30%;
+    background-color: #5ad027;
+    color: rgb(252, 252, 252);
+    border-style: none ;
+    height: 3em;
+    border-radius: 4px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .titulo_carousel {
+        position: none;
+        top: 0px;
+        text-align: center;
+        padding-bottom: 10%;
+        padding-left: 0%;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+
+}
+
+
+/*   Oradores ------------------------------   */
+
+
+.oradores {
+    text-align: center;
+    margin: auto;
+}
+
+
+.javascript {
+    background-color: rgb(248, 248, 63);
+    border-style: none;
+    border-radius: 10px;
+
+}
+
+.react {
+    background-color: rgb(100, 104, 221);
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.negocios {
+    background-color: rgb(67, 67, 57);
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.startups {
+    background-color: rgb(118, 6, 6);
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+/*   formulario ------------------------------   */
+
+
+.container_form{
+    width: 70%;
+    margin: auto;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#datos {
+    width: 48%;
+}
+
+
+
+.button-blocke {
+
+    width: 100%;
+    background-color: #5ad027;
+    color: rgb(252, 252, 252);
+    border-style: none ;
+    height: 3em;
+    border-radius: 8px;
+}
+
+
+/*   Final ------------------------------   */
+
+
+.textoPlaya {
+    background-color: rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+}
+
+
+.botonPlaya {
+    background-color: rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-color: rgb(255, 255, 255);
+}    
+
+
+/*   Footer ------------------------------   */
+
+
+
+.foot{
+    background-color: #28306d;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.flex-item {
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 700px) {
+    
+    .flex-container {
+        display: block;
+    }
+    .flex-item {
+        margin: auto;
+        text-align: center;
+        margin-top: 1em;
+        text-decoration: underline;
+    }
+    
+}
+
