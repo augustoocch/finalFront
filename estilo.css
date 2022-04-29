@@ -68,8 +68,57 @@ min-height: 100vh;
         padding-left: 0%;
     }
 
+    .titulo {
+        font-size: 20px;
+    }
+
     p {
-        font-size: 12px;
+        font-size: 10px;
+    }
+
+    .botonTranspar {
+        height: 3em;
+        font-size: 15px;
+
+    }
+    
+    .botonTickets{
+        height: 3em;
+        font-size: 15px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 300px) {
+
+    .titulo_carousel {
+        position: none;
+        top: 0px;
+        text-align: center;
+        padding-bottom: 10%;
+        padding-left: 0%;
+    }
+
+    .titulo {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    .botonTranspar {
+        height: 3em;
+        font-size: 10px;
+
+    }
+    
+    .botonTickets{
+        height: 3em;
+        font-size: 10px;
+
     }
 
 
