@@ -77,12 +77,14 @@ min-height: 100vh;
     }
 
     .botonTranspar {
+        width: 45%;
         height: 3em;
         font-size: 15px;
 
     }
     
     .botonTickets{
+        width: 45%;
         height: 3em;
         font-size: 15px;
 
