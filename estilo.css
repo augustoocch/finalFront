@@ -127,7 +127,7 @@ min-height: 100vh;
 }
 
 
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 280px) {
 
     .titulo_carousel {
         position: none;
