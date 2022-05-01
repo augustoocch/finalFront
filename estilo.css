@@ -127,6 +127,42 @@ min-height: 100vh;
 }
 
 
+@media screen and (max-width: 250px) {
+
+    .titulo_carousel {
+        position: none;
+        top: 0px;
+        text-align: center;
+        padding-bottom: 10%;
+        padding-left: 0%;
+    }
+
+    .titulo {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    .botonTranspar {
+        width: 48%;
+        height: 3em;
+        font-size: 7px;
+
+    }
+    
+    .botonTickets{
+        width: 48%;
+        height: 3em;
+        font-size: 7px;
+
+    }
+
+
+}
+
+
 /*   Oradores ------------------------------   */
 
 
