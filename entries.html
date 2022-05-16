@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Augusto Occhiuzzi - Personal web page</title>
+        <meta charset='utf-8'>
+        <meta name="author" content="Augusto Occhiuzzi"/>
+        <meta name='viewport' content='width=device-width, initial-scale=1'/>
+        <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='https://necolas.github.io/normalize.css/8.0.1/normalize.css'/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/> 
+        <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Nunito:wght@200&family=Smooch+Sans:wght@100&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+       
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    </head>
+        
+        <body>
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark">  
+                    <div class="container-fluid">
+                        <img class="navbar_imagen" src="images/codo.codo.png"/><a class="navbar-brand" href="index.html" style="color: rgb(255, 255, 255)">Conf. Buenos Aires</a>
+                        <button class="navbar-toggler" type="button" 
+                        data-toggle="collapse" data-target="#botonCollapse" 
+                        aria-controls="botonCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="botonCollapse">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link mr-4" href="index.html" style="color: rgb(255, 255, 255);">La conferencia<span class="sr-only ">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mr-4" href="index.html">Los oradores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mr-4" href="index.html/#lugar">El lugar y la fecha</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mr-4" href="index.html/#form">Conviertete en orador</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mr-4 compra" href="" style="color: rgb(50, 171, 50);">Comprar tickets</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>    
+                </nav>
+            </header>   
+
+
+            <section class="tickets">
+                <div class="card-group">
+                    <div class="card " id="estudiante">
+                        <button class="card-body" id="bodyCompra">
+                            <h5 class="card-title">Estudiante</h5>
+                            <p class="card-text">
+                                Tienen un descuento
+                            </p>
+                            <p class="card-text">
+                                <b>80%</b>
+                            </p>
+                            <label>*presentar documentacion</label>
+                        </button>
+                    </div>
+
+                    <div class="card" id="trainee">
+                        <button class="card-body" id="bodyCompra">
+                            <h5 class="card-title">Trainee</h5>
+                            <p class="card-text">
+                                Tienen un descuento
+                            </p>
+                            <p class="card-text">
+                                <b>50%</b>
+                            </p>
+                            <label>*presentar documentacion</label>
+                        </button>
+                    </div>
+
+                    <div class="card" id="junior">
+                            <button class="card-body" id="bodyCompra">
+                                <h5 class="card-title">Junior</h5>
+                                <p class="card-text">
+                                    Tienen un descuento
+                                </p>
+                                <p class="card-text">
+                                    <b>15%</b>
+                                </p>
+                                <label>*presentar documentacion</label>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>    
+
+            <br><br>      
+
+            <section>
+                <div id="form">
+                    <p class="oradores">
+                        VENTA 
+                    </p>
+                    <h3 class="oradores">VALOR DE TICKET $200</h3>          
+                </div>
+            </section>  
+
+            <section>
+                <div class="container_form inicial">
+                    <br>
+                    <form>
+                        <div class=”flexbox-container">
+                            <div class="contenedor">
+                                
+                                    <input type="text" class="form-control" id="datos" placeholder="Nombre" required>
+                                    <input type="text" class="form-control" id="datosApellido" placeholder="Apellido" required>          
+                            </div>    
+                        </div>  
+
+                        <br>
+
+                        <div class="form-group">    
+                            <input type="email" id="email" class="form-control" placeholder="Ingrese email"></input>
+                        </div>
+
+                        <br>
+
+                        <div class=”flexbox-container">
+                            <div class="contenedorDescripcion">
+                                    <label id="descripcion">Cantidad</label>
+                                    <label id="descripcion">Categoria</label>
+                            </div>    
+                        </div>  
+
+
+                        <div class=”flexbox-container">
+                            <div class="contenedor">
+                                
+                                    <input type="number" class="form-control" id="datosCant" placeholder="Cantidad" required>
+                                    <input type="text" class="form-control" id="tipoDesc"  placeholder="Categoria" required>          
+                            </div>    
+                        </div>
+
+                        <br>
+
+
+                        <div class=”flexbox-container">
+                            <div class="contenedorCompra">
+                                    <button class="btn-compra" id="sendDelete" >Borrar</button>
+                                    <button class="btn-compra" id="sendResumen" >Resumen</button>
+                            </div>    
+                        </div> 
+                        
+                        <div class="resumenFinal-container" id="resumenFinal-container">
+
+
+                            
+                        </div>  
+
+                    </form>
+
+
+
+                    <br>
+
+                </div>
+            </section>
+
+            <script src="js/app.js"></script>
+
+            <section>
+                    <footer class="foot">
+                        <div class="flex-container">
+                                    <div class="flex-item">
+                                        <a>Preguntas</a> 
+                                        <br>
+                                        <a>frecuentes</a>
+                                    </div>
+                                    <div class="flex-item lineaIndividual">
+                                        <a>Contactanos</a>
+                                    </div>
+                                    <div class="flex-item lineaIndividual">
+                                        <a>Prensa</a>
+                                    </div>
+                                    <div class="flex-item lineaIndividual">
+                                        <a>Conferencias</a>
+                                    </div>
+                                    <div class="flex-item">
+                                        <a>Terminos y</a> 
+                                        <br>
+                                        <a>Condiciones</a>
+                                    </div>
+                                    <div class="flex-item lineaIndividual">
+                                        <a>Privacidad</a>
+                                    </div>
+                                    <div class="flex-item lineaIndividual">
+                                        <a>Estudiantes</a>
+                                    </div>      
+                        </div>
+                    </footer>
+            </section>
+        </body>     
+</html>

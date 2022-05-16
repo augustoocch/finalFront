@@ -4,7 +4,7 @@ flex-direction: column;
 min-height: 100vh;
 }
 
-/*   Navbar ------------------------------   */
+/*   NAVBAR ------------------------------   */
 
 .navbar {
     color: rgb(255, 255, 255);
@@ -25,7 +25,7 @@ min-height: 100vh;
 
 
 
-/*   Fondo Imagen ------------------------------   */
+/*   IMAGE CAROUSEL ------------------------------   */
 
 .titulo_carousel {
 
@@ -50,7 +50,7 @@ min-height: 100vh;
 
 .botonTickets{
     width: 30%;
-    background-color: #5ad027;
+    background: linear-gradient(#5ad027, #a4e788);
     color: rgb(252, 252, 252);
     border-style: none ;
     height: 3em;
@@ -165,12 +165,19 @@ min-height: 100vh;
 }
 
 
-/*   Oradores ------------------------------   */
+/*   ORADORES ------------------------------   */
 
 
 .oradores {
     text-align: center;
     margin: auto;
+}
+
+.tarjetas {
+
+    width: 90vw;
+    margin: auto;
+
 }
 
 
@@ -202,10 +209,104 @@ min-height: 100vh;
     color: rgb(255, 255, 255);
 }
 
+/*   COMPRAR ENTRADAS ------------------------------   */
+
+.tickets{
+    margin: auto;
+    margin-top: 3em;
+    width: 70%;
+}
 
 
+.contenedorDescripcion {
+    display: flex;
+    justify-content: space-between;
 
-/*   formulario ------------------------------   */
+}
+
+#descripcion {
+    width: 48%;
+}
+
+.contenedorCompra{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+
+}
+
+#sendBuy {
+    width: 48%;
+}
+
+.btn-compra {
+
+    width: 50%;
+    background: linear-gradient(#5ad027, #a4e788);
+    color: rgb(252, 252, 252);
+    border-style: none ;
+    height: 3em;
+    border-radius: 8px;
+}
+
+
+#bodyCompra {
+    background: linear-gradient(to right, rgb(247, 255, 209),rgb(255, 255, 255));
+    text-align: center;
+    border-style: none;
+}
+
+.resumenFinal {
+    display: block;
+    width: 100%;
+    height: 3em;
+    background-color: rgb(176, 207, 250);
+    border-radius: 10px;
+    color: rgb(79, 79, 250);
+    margin-bottom: 4em;
+
+}
+
+#cant {
+    width: 48%;
+}
+
+#datosCant {
+    width: 48%;
+}
+
+#sendResumen {
+    width: 48%;
+}
+
+#sendDelete {
+    width: 48%;
+}
+
+#tipoDesc {
+    width: 48%;
+}
+
+
+#datosApellido {
+    width: 48%;
+}
+
+
+h6{
+    background-color: rgb(145, 178, 245);
+    color: rgb(4, 4, 245);
+    font-size: 1em;
+    margin-bottom: 3em;
+    border-radius: 10px;
+    height: 4em;
+    text-align: center;
+    padding: 1em;
+}
+
+
+/*   FORMULARIO ------------------------------   */
 
 
 .container_form{
@@ -228,16 +329,24 @@ min-height: 100vh;
 .button-blocke {
 
     width: 100%;
-    background-color: #5ad027;
+    background: linear-gradient(#5ad027, #a4e788);
     color: rgb(252, 252, 252);
     border-style: none ;
     height: 3em;
     border-radius: 8px;
+    margin-bottom: 3em;
+    
 }
 
 
-/*   Final ------------------------------   */
+/*   LUGAR FINAL ------------------------------   */
 
+
+.lugar {
+
+    width: 90vw;
+    margin: auto;
+}
 
 .textoPlaya {
     background-color: rgb(63, 63, 63);
@@ -250,15 +359,16 @@ min-height: 100vh;
     color: rgb(255, 255, 255);
     border-radius: 8px;
     border-color: rgb(255, 255, 255);
-}    
+}   
 
 
-/*   Footer ------------------------------   */
+
+/*   FOOTER ------------------------------   */
 
 
 
 .foot{
-    background-color: #28306d;
+    background: linear-gradient(to right, #28306d, #8088bf); 
 }
 
 
@@ -270,6 +380,14 @@ min-height: 100vh;
 
 .flex-item {
     color: rgb(255, 255, 255);
+    margin-bottom: 2em;
+    margin-top: 2em;
+    vertical-align: middle;
+}
+
+.lineaIndividual {
+
+    margin-top: 2.8em;
 }
 
 @media screen and (max-width: 700px) {
@@ -281,7 +399,7 @@ min-height: 100vh;
         margin: auto;
         text-align: center;
         margin-top: 1em;
-        text-decoration: underline;
+
     }
     
 }
