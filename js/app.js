@@ -73,6 +73,9 @@ function calculoFinal(e) {
 
 }
 
+
+/* BORRAR ------------------------------------*/
+
 function borrarDatos(e) {
     e.preventDefault();
 
