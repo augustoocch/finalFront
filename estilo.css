@@ -27,6 +27,10 @@ min-height: 100vh;
 
 /*   IMAGE CAROUSEL ------------------------------   */
 
+.d-block {
+    filter: brightness(65%);
+}
+
 .titulo_carousel {
 
     position: absolute;
