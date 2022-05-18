@@ -6,8 +6,8 @@ const div = document.createElement("h6");
 
 /* CALCULO FINAL ------------------------------------*/
 
-function calculoFinal(e) {   
-    e.preventDefault();
+function calculoFinal() {   
+
 
     const cantidad = document.querySelector('#datosCant').value;
     const valorSinDesc = cantidad * 200;
