@@ -254,9 +254,22 @@ min-height: 100vh;
     border-radius: 8px;
 }
 
+#estudiante {
+    border-color: rgb(173, 173, 255);
+    border-width: 2px;
+}
+#trainee {
+    border-color: rgb(247, 255, 198);
+    border-width: 2px;
+    border-radius: 10px;
+}
+#junior {
+    border-color: rgb(255, 188, 188);
+    border-width: 2px;
+}
 
 #bodyCompra {
-    background: linear-gradient(to right, rgb(247, 255, 209),rgb(255, 255, 255));
+    background: linear-gradient(to right, rgb(255, 255, 253),rgb(255, 255, 255));
     text-align: center;
     border-style: none;
 }
