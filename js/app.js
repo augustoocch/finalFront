@@ -12,7 +12,7 @@ function calculoFinal() {
     const cantidad = document.querySelector('#datosCant').value;
     const valorSinDesc = cantidad * 200;
     const tipoDesc = document.querySelector('#tipoDesc').value;
-    const valorDescontado = tipoDesc * valorSinDesc / 100;
+    const valorDescontado = valorSinDesc - (tipoDesc * valorSinDesc / 100);
 
     div.textContent = 'Su compra es de un total de: $' + valorDescontado;
     document.getElementById("resumenFinal-container").appendChild(div);
