@@ -6,7 +6,7 @@
         <meta charset='utf-8'>
         <meta name="author" content="Augusto Occhiuzzi"/>
         <meta name='viewport' content='width=device-width, initial-scale=1'/>
-        <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/estilo.css'>
         <link rel='stylesheet' type='text/css' media='screen' href='https://necolas.github.io/normalize.css/8.0.1/normalize.css'/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/> 
@@ -22,7 +22,7 @@
             <header>
                 <nav class="navbar navbar-expand-lg navbar-light bg-dark">  
                     <div class="container-fluid">
-                        <img class="navbar_imagen" src="images/codo.codo.png"/><a class="navbar-brand" href="index.html" style="color: rgb(255, 255, 255)">Conf. Buenos Aires</a>
+                        <img class="navbar_imagen" src="images/BAlogo.png" class="navbar-brand" href="index.html" style="color: rgb(255, 255, 255)">Buenos Aires Conference</a>
                         <button class="navbar-toggler" type="button" 
                         data-toggle="collapse" data-target="#botonCollapse" 
                         aria-controls="botonCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
                                     <a class="nav-link mr-4" href="#form">Conviertete en orador</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link mr-4 compra" href="entries.html" style="color: rgb(50, 171, 50);">Comprar tickets</a>
+                                    <a class="nav-link mr-4 compra" href="htmls/entries.html" style="color: rgb(50, 171, 50);">Comprar tickets</a>
                                 </li>
                             </ul>
                         </div>
@@ -57,13 +57,13 @@
                             
                             <div class="titulo_carousel">
                                     <ul>
-                                        <h1 class="titulo">Conf Bs As</h1>
+                                        <h1 class="titulo">Buenos Aires Conference</h1>
                                         <p>
-                                            Bs As llega por primera vez a Argentina. Un evento para compartir
-                                            con nuestra comunidad el conocimiento y experiencia de los 
+                                            La conferencia llega por primera vez a a la ciudad de Buenos Aires.
+                                            Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los 
                                             expertos de los que estan creando el futuro de internet.
                                             Ven a conocer a los miembros del evento, a otros estudiantes 
-                                            de Codo a Codo y los oradores de primer nivel que tenemos
+                                            del programa educativo y los oradores de primer nivel que tenemos
                                             para ti. Te esperamos!
                                         </p>
                                         <a href="#form"><button class="botonTranspar">Quiero ser orador</button></a>
@@ -112,17 +112,17 @@
             <section class="tarjetas">
                 <div class="card-deck">
                     <div class="card">
-                    <img class="card-img-top" src="images/steve.jpg" alt="Card image cap" >
+                    <div class="card-imagen">
+                        <img class="imagenTarj" src="images/salvatto.jpg" alt="Card image cap" >
+                    </div>    
                     <div class="card-body">
-                        <button class="javascript">JavaScript</button>
-                        <button class="react">React</button>
-                        <h5 class="card-title">Steve Jobs</h5>
+                        <button class="emprendedurismo">Emprendedurismo</button>
+                        <button class="proposito">Proposito</button>
+                        <h5 class="card-title">Mateo Salvatto</h5>
                         <p class="card-text">
-                            Lorem ipsum, dolor sit amet 
-                            consectetur adipisicing elit. Incidunt amet quo voluptatem 
-                            vero quos accusamus minima, ea vel animi dignissimos,
-                            accusantium laboriosam provident cum nam corporis saepe quasi reprehenderit r
-                            epellat.
+                            Mateo Nicolás Salvatto (Ciudad de Buenos Aires, Argentina, 10 de enero de 1999) 
+                            es un emprendedor argentino especializado en robótica, escritor y fundador de la aplicación Háblalo, 
+                            que facilita la comunicación a personas con dificultades en el habla.
                         </p>
                     </div>
                     </div>
@@ -130,34 +130,40 @@
                     <br><br>
 
                     <div class="card">
-                    <img class="card-img-top" src="images/windows.jpeg" alt="Card image cap" >
+                    <div class="card-imagen">
+                        <img class="imagenTarj" src="images/Kevin-Leyes.jpg" alt="Card image cap" >
+                    </div>    
                     <div class="card-body">
-                        <button class="javascript">JavaScript</button>
-                        <button class="react">React</button>
-                        <h5 class="card-title">Bill gates</h5>
+                        <button class="vision">Vision</button>
+                        <button class="economia">Economia de negocio</button>
+                        <h5 class="card-title">Kevin Leyes</h5>
                         <p class="card-text">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam neque 
-                            reprehenderit ad, quia possimus natus in quidem
-                            maiores architecto corporis non ipsum unde. Odit 
-                            corporis harum perferendis asperiores quidem! Aspernatur!
+                            Team Leyes es una startup que diseña y fabrica joyas
+                            de fantasía y verdaderas cuyo universo es el mundo del reggaetón 
+                            y el trap. Y no sólo es para fanáticos de ese tipo de música: los productos
+                            que Kevin diseña en Argentina y produce en Europa y EEUU, donde su empresa también 
+                            está registrada
                         </p>
                     </div>
                     </div>
 
                     <div class="card">
-                        <img class="card-img-top" src="images/flaca.jpeg" alt="Card image cap" >
-                            <div class="card-body">
-                                <button class="negocios">Negocios</button>
-                                <button class="startups">Startups</button>
-                                <h5 class="card-title">Ada Lovelace</h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing 
-                                    elit. Quo autem optio recusandae. Repudiandae blanditiis
-                                    iste, illo assumenda at officiis deleniti vel animi 
-                                    quisquam! Praesentium quas magni provident porro 
-                                    repellat libero.
-                                </p>
-                            </div>
+                        <div class="card-imagen">
+                            <img class="imagenTarj" src="images/gaston.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <button class="negocios">Negocios</button>
+                            <button class="startups">Startups</button>
+                            <h5 class="card-title">Gaston Gorosterrazu</h5>
+                            <p class="card-text">
+                                Ingeniero Electrónico de la UTN con más de 30 años
+                                de experiencia en programación, trabajando y liderando
+                                equipos en empresas de todo el mundo, desde startups a
+                                algunas de las Fortune 100 incluyendo Playboy, Conde Nast,
+                                Girl Scouts of America, Crossover, Women World Banking,
+                                Cosmopolitan y muchas otras.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>    
@@ -173,13 +179,16 @@
                     <br><br>
                     <div class="card">
                         <div class="card-body textoPlaya">
-                            <h5 class="card-title">Bs As - Octubre</h5>
+                            <h5 class="card-title">Proximos eventos</h5>
                             <p class="card-text">
-                                Buenos Aires es la provincia y la localidad mas grande de Argentina. En los Estados Unidos Honolulu
-                                es la mas sureña de entre las principales ciudades Estadounidenses. Aunque el nombre
-                                Honolulu se refiere al area urbana en la costa sureste de la isla Oahu,
-                                la ciudad y el condado de Honolulu han formado una ciudad-condado
-                                consolidada que cubre toda la ciudad (aproximadamente 600km2) de superficie                          
+                                El proximo evento IT a desarrollarse es en Honolulu. Este sera en Octubre
+                                y alli los reconocidos Oradores que se presentan en la Ciudad de Buenos Aires
+                                el proximo Agosto, daran una conferencia representando el Desarrollo Argentino.
+                                Honolulu, en la costa sur de la isla de Oahu, es la capital de Hawái y la vía 
+                                de acceso a la cadena de islas de EE.UU. El barrio de Waikiki es un centro de 
+                                restaurantes, vida nocturna y comercio, famoso por su icónica playa con forma 
+                                de medialuna bordeada de palmeras y hoteles de muchos pisos y con el cráter 
+                                volcánico Diamond Head en lo alto a la distancia.                          
                              </p>
                             <button class="botonPlaya">
                                 Conoce mas

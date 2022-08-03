@@ -11,8 +11,8 @@ min-height: 100vh;
 }
 .navbar_imagen {
 
-    width: 6rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .compra {
@@ -185,15 +185,29 @@ min-height: 100vh;
 }
 
 
-.javascript {
+.emprendedurismo {
     background-color: rgb(248, 248, 63);
     border-style: none;
     border-radius: 10px;
 
 }
 
-.react {
+.proposito {
     background-color: rgb(100, 104, 221);
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.vision {
+    background-color: rgb(93, 119, 165);
+    border-style: none;
+    border-radius: 10px;
+
+}
+
+.economia {
+    background-color: rgb(191, 117, 79);
     border-style: none;
     border-radius: 10px;
     color: rgb(255, 255, 255);
@@ -211,6 +225,16 @@ min-height: 100vh;
     border-style: none;
     border-radius: 10px;
     color: rgb(255, 255, 255);
+}
+
+.card-imagen{
+    height: 400px;
+    width: 100%;
+}
+.imagenTarj{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*   COMPRAR ENTRADAS ------------------------------   */
